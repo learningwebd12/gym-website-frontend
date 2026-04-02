@@ -15,7 +15,6 @@ html, body{
 }
 
 .main-page{
-
 width: 100%;
 background-image:url("../html/images/Hero_BG.jpg") ;
 background-repeat: no-repeat;
@@ -169,22 +168,25 @@ header nav a{
 .two-box-test{
     display: flex;
    padding: 2rem 0 0 0;
-    gap: 10px;
+    gap: 3rem;
 }
 .first-box-test{
-    
-     border: 1px solid rgb(255, 255, 255);
+    border: 1px solid red;
+     border: 1px solid rgb(110, 110, 110);
      display: flex;
 }
 .details-test{
     padding: 3rem;
+    
 }
 .testomonials-details{
     color: #fff;
     line-height: 1.5rem;
+    
+    width: 90%;
 }
 .all-star{
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 .ri-star-fill{
     color: #f2fd84;
@@ -192,5 +194,93 @@ header nav a{
 .review-name{
     font-size: 1.3rem;
     color: #fff;
+    padding: 0.5rem 0;
+}
+
+
+/* price section css start here */
+.price-section{
+    
+    padding: 1rem 4rem;
+    font-family: font;
+}
+.price-main-text{
+    
+    text-align: center;
+}
+.price-heading-text{
+    color: #fff;
+    font-size: 3.5rem;
+}
+.price-pasag{
+    color: #dcdcdc;
+    font-size: 1rem;
     padding: 1rem 0;
+}
+.three-price-box{
+  
+    display: flex;
+    justify-content: space-between;
+    padding:1.5rem 0
+
+}
+.first-box{
+    
+    background-color: #2d2d2d;
+    padding:2rem 4rem;
+    border-radius: 0.5rem;
+    
+}
+.plan-name{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+    text-align: center;
+}
+.plan-price{
+    font-size: 3.5rem;
+    color: #f2fd84;
+    font-weight: 700;
+    padding: 1.5rem 0;
+}
+.price-span{
+    font-size: 2rem;
+    
+}
+
+.overlay-text{
+    background-color: #3f3f3f;
+    color: #dcdcdc;
+    font-size: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+.order-list-price{
+    padding-bottom: 2rem;
+}
+.order-list-price .list-item-price{
+    list-style-type: none;
+    padding: 0.6rem 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.price-btn{
+    font-size: 1.2rem;
+    font-family: font;
+    background-color: #f2fd84;
+    padding: 1rem 5rem;
+    border: 1px solid #f2fd84;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+.price-btn:hover{
+    background-color: transparent;
+    color: #fff;
 }
